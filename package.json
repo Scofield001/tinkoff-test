@@ -1,0 +1,40 @@
+{
+  "name": "tinkoff-test",
+  "version": "1.0.0",
+  "description": "Тестовое задание",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Scofield001/tinkoff-test.git"
+  },
+  "keywords": [
+    "html",
+    "gulp",
+    "sass"
+  ],
+  "author": "Aleksandr Bekk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Scofield001/tinkoff-test/issues"
+  },
+  "homepage": "https://github.com/Scofield001/tinkoff-test#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-tinify": "^1.0.2",
+    "install": "^0.12.2",
+    "node-env-file": "^0.1.8",
+    "node-normalize-scss": "^8.0.0",
+    "npm": "^6.9.0",
+    "sass-rem": "^2.0.1"
+  }
+}
