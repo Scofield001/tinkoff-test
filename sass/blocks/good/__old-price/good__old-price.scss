@@ -1,0 +1,13 @@
+$font-color: #999;
+
+.good__old-price {
+  @include rem(font-size, 20px);
+  color: $font-color;
+  position: relative;
+  bottom: -2px;
+
+  @include media('tablet-small') {
+    font-size: 1.83rem;
+    position: static;
+  }
+}

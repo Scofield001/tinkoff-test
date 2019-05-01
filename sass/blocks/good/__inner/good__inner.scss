@@ -1,0 +1,7 @@
+.good__inner {
+  margin-bottom: 25px;
+
+  @include media('tablet-small') {
+    margin-bottom: 0;
+  }
+}

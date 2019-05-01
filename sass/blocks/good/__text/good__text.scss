@@ -1,0 +1,12 @@
+$font-color: #999;
+
+.good__text {
+  color: $font-color;
+  font-family: pragmatica, Helvetica, Arial, sans-serif;
+  margin-bottom: 33px;
+  @include rem(line-height, 24px);
+
+  @include media('tablet-small') {
+    margin-bottom: 41px;
+  }
+}

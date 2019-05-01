@@ -1,0 +1,8 @@
+.good__box {
+
+  @include media("tablet-small") {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+}

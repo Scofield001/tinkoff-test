@@ -1,0 +1,8 @@
+.good__title {
+  @include rem(font-size, 32px);
+  margin-bottom: 24px;
+
+  @include media('tablet-small') {
+    margin-bottom: 27px;
+  }
+}
