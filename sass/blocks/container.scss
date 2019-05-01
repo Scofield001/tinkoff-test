@@ -1,0 +1,14 @@
+.container {
+  max-width: 320px;
+  padding: 45px 16px;
+  margin: 0 auto;
+
+  @include media("tablet-small") {
+    max-width: 640px;
+    padding: 88px 44px;
+  }
+  @include media('tablet-wide') {
+    max-width: 960px;
+    padding: 100px 67px;
+  }
+}

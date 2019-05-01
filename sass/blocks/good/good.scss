@@ -1,0 +1,12 @@
+.good {
+
+  @include media('tablet-small') {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @include media('tablet-wide') {
+    flex-flow: wrap;
+    align-items: flex-start;
+  }
+}
