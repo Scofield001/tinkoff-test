@@ -11,10 +11,15 @@ $m-height: 56px;
   @include rem(font-size, 13px);
   background: $back-color;
   text-transform: capitalize;
+
   @include media("tablet-small") {
     width: 178px;
     height: $m-height;
     border-radius: calc(#{$m-height} / 2);
     font-size: 1rem;
+  }
+
+  @include media('tablet-wide') {
+    width: 240px;
   }
 }
