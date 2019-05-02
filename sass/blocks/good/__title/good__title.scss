@@ -5,4 +5,12 @@
   @include media('tablet-small') {
     margin-bottom: 27px;
   }
+
+  @include media('tablet-wide') {
+    font-size: 2.8rem;
+  }
+
+  @include media('desktop-wide') {
+    font-size: 3.2rem;
+  }
 }
