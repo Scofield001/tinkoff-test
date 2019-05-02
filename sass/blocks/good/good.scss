@@ -6,7 +6,13 @@
   }
 
   @include media('tablet-wide') {
-    flex-flow: wrap;
-    align-items: flex-start;
+    height: 392px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+  }
+
+  @include media('desktop-wide') {
+    height: 465px;
   }
 }
