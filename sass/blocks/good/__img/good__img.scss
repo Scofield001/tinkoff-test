@@ -15,5 +15,11 @@ $back-color: #f8f8f8;
   @include media('tablet-wide') {
     width: 392px;
     height: 392px;
+    margin: 0 41px 0 0;
+  }
+  @include media('desktop-wide') {
+    width: 528px;
+    height: 465px;
+    margin-right: 48px;
   }
 }
