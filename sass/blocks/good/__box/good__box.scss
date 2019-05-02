@@ -5,4 +5,9 @@
     justify-content: space-between;
     align-items: flex-end;
   }
+
+  @include media('tablet-wide') {
+    flex-direction: column;
+    align-items: stretch;
+  }
 }
