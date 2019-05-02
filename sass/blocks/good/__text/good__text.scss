@@ -9,4 +9,12 @@ $font-color: #999;
   @include media('tablet-small') {
     margin-bottom: 41px;
   }
+
+  @include media('tablet-wide') {
+    max-width: 50%;
+    font-size: 1.11rem;
+  }
+  @include media('desktop-wide') {
+    //margin-top: 27px;
+  }
 }
