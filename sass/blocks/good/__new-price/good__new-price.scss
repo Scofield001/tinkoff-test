@@ -1,9 +1,4 @@
 .good__new-price {
   @include rem(font-size, 32px);
   margin-right: 23px;
-
-  @include media('tablet-small') {
-    //@include rem(font-size, 36px);
-    //letter-spacing: 0.6px;
-  }
 }
