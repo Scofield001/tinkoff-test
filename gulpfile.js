@@ -51,4 +51,4 @@ exports.html = html;
 exports.css = css;
 exports.img = img;
 exports.build = build;
-exports.default = parallel(html, css);
+exports.default = parallel(html, css, build);
