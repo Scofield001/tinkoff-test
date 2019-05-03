@@ -1,4 +1,4 @@
-# tinkoff-test
+# Tinkoff test
 
 [Главная страница](https://scofield001.github.io/tinkoff-test)
 ---
