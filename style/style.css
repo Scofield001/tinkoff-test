@@ -440,13 +440,13 @@ button {
   background: #f00;
 }
 
-.good__inner {
-  margin-bottom: 25px;
-}
-
 .good__img {
   background: #f8f8f8;
   width: 100%;
+}
+
+.good__inner {
+  margin-bottom: 25px;
 }
 
 .good__new-price {
@@ -522,12 +522,12 @@ button {
     align-items: flex-end;
   }
 
-  .good__inner {
-    margin-bottom: 0;
-  }
-
   .good__img {
     height: 551px;
+  }
+
+  .good__inner {
+    margin-bottom: 0;
   }
 
   .good__new-price {
@@ -608,13 +608,13 @@ button {
     align-items: stretch;
   }
 
-  .good__inner {
-    margin-bottom: 24px;
-  }
-
   .good__img {
     width: 392px;
     height: 392px;
+  }
+
+  .good__inner {
+    margin-bottom: 24px;
   }
 
   .good__pic {
