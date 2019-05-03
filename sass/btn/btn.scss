@@ -20,7 +20,7 @@ $m-height: 56px;
     width: 178px;
     height: $m-height;
     border-radius: calc(#{$m-height} / 2);
-    font-size: 1rem;
+    font-size: .9rem;
   }
 
   @include media('tablet-wide') {
