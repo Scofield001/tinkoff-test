@@ -1,4 +1,9 @@
 .good__new-price {
   @include rem(font-size, 32px);
   margin-right: 23px;
+
+  @include media('tablet-small') {
+    margin-right: 25px;
+    font-size: 2rem;
+  }
 }
