@@ -13,6 +13,6 @@
   }
 
   @include media('desktop-wide') {
-    height: 465px;
+    height: 465px + 71px;
   }
 }
