@@ -2,7 +2,6 @@ $font-color: #111;
 $main-font: pf-highway-sans-pro;
 $back-color: #fff;
 
-
 @include font-face($main-font, regular, normal);
 @include font-face(pragmatica, regular, normal);
 @import "normalize";
