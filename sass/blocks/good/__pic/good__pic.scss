@@ -1,0 +1,17 @@
+.good__pic {
+  margin-bottom: 26px;
+  display: block;
+
+  @include media("tablet-small") {
+    margin-bottom: 44px;
+    order: -1;
+  }
+
+  @include media('tablet-wide') {
+    margin: 0 41px 0 0;
+  }
+
+  @include media('desktop-wide') {
+    margin: 0 48px auto 0;
+  }
+}
