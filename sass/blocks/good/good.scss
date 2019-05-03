@@ -10,7 +10,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-content: flex-start;
-    overflow: auto;
+    overflow: hidden;
   }
 
   @include media('desktop-wide') {
