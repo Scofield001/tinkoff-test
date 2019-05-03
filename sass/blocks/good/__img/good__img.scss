@@ -20,6 +20,6 @@ $back-color: #f8f8f8;
   @include media('desktop-wide') {
     width: 528px;
     height: 465px;
-    margin-right: 48px;
+    margin: 0 48px auto 0;
   }
 }
