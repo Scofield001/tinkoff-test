@@ -7,4 +7,4 @@
 + _html_, стили, шрифты, изображения **сжаты** без потери качества,
 + В работе использовались: _БЭМ, SASS, Gulp, Pixel-Perfect_
 
-_[Production-версия](https://github.com/Scofield001/scofield001.github.io/tree/master/tinkoff-test)_
+_[Исходники Production-версии](https://github.com/Scofield001/scofield001.github.io/tree/master/tinkoff-test)_
