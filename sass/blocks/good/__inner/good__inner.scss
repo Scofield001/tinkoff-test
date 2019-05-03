@@ -4,6 +4,7 @@
   @include media('tablet-small') {
     margin-bottom: 0;
   }
+
   @include media('tablet-wide') {
     margin-bottom: 24px;
   }
