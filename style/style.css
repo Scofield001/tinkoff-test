@@ -436,6 +436,10 @@ button {
   text-transform: capitalize;
 }
 
+.btn:active {
+  background: #f00;
+}
+
 .good__img {
   height: 288px;
   background: #f8f8f8;
@@ -471,7 +475,7 @@ button {
   margin-bottom: 24px;
 }
 
-@media only screen and (min-width: 640px) {
+@media screen and (min-width: 640px) {
   html {
     font-size: 18px;
   }
@@ -529,6 +533,11 @@ button {
     margin-bottom: 0;
   }
 
+  .good__new-price {
+    margin-right: 25px;
+    font-size: 2rem;
+  }
+
   .good__old-price {
     font-size: 1.83rem;
     position: static;
@@ -543,7 +552,7 @@ button {
   }
 }
 
-@media only screen and (min-width: 960px) {
+@media screen and (min-width: 960px) {
   .container {
     max-width: 960px;
     padding: 100px 67px;
@@ -551,6 +560,21 @@ button {
 
   .btn {
     width: 240px;
+    cursor: pointer;
+    -webkit-transition: .3s background-color;
+    -o-transition: .3s background-color;
+    transition: .3s background-color;
+  }
+
+  .btn:hover {
+    background: #444444;
+  }
+
+  .btn:active {
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+    background: #f00;
   }
 
   .good {
@@ -599,23 +623,24 @@ button {
   }
 }
 
-@media only screen and (min-width: 1366px) {
+@media screen and (min-width: 1366px) {
   .container {
     max-width: 1366px;
     padding: 128px 131px;
   }
 
   .good {
-    height: 465px;
+    height: 536px;
   }
 
   .good__img {
     width: 528px;
     height: 465px;
-    margin-right: 48px;
+    margin: 0 48px auto 0;
   }
 
   .good__title {
     font-size: 3.2rem;
+    margin-bottom: 16px;
   }
 }
