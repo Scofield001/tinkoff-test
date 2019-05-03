@@ -1,5 +1,6 @@
 $back-color: #111;
 $font-color: #fff;
+$back-color-active: #f00;
 $height: 40px;
 $m-height: 56px;
 
@@ -11,6 +12,9 @@ $m-height: 56px;
   @include rem(font-size, 13px);
   background: $back-color;
   text-transform: capitalize;
+  &:active {
+    background: $back-color-active;
+  }
 
   @include media("tablet-small") {
     width: 178px;
@@ -21,5 +25,14 @@ $m-height: 56px;
 
   @include media('tablet-wide') {
     width: 240px;
+    cursor: pointer;
+    transition: .3s background-color;
+    &:hover {
+      background: lighten($back-color, 20%);
+    }
+    &:active {
+      transition: none;
+      background: $back-color-active;
+    }
   }
 }
