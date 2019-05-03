@@ -440,16 +440,13 @@ button {
   background: #f00;
 }
 
-.good__img {
-  height: 288px;
-  width: 288px;
-  background: #f8f8f8;
-  margin-bottom: 26px;
-  display: inline-block;
-}
-
 .good__inner {
   margin-bottom: 25px;
+}
+
+.good__img {
+  background: #f8f8f8;
+  width: 100%;
 }
 
 .good__new-price {
@@ -462,6 +459,11 @@ button {
   color: #999;
   position: relative;
   bottom: -2px;
+}
+
+.good__pic {
+  margin-bottom: 26px;
+  display: block;
 }
 
 .good__text {
@@ -520,18 +522,12 @@ button {
     align-items: flex-end;
   }
 
-  .good__img {
-    width: 100%;
-    height: 551px;
-    margin-bottom: 44px;
-    -webkit-box-ordinal-group: 0;
-    -webkit-order: -1;
-    -ms-flex-order: -1;
-    order: -1;
-  }
-
   .good__inner {
     margin-bottom: 0;
+  }
+
+  .good__img {
+    height: 551px;
   }
 
   .good__new-price {
@@ -542,6 +538,14 @@ button {
   .good__old-price {
     font-size: 1.83rem;
     position: static;
+  }
+
+  .good__pic {
+    margin-bottom: 44px;
+    -webkit-box-ordinal-group: 0;
+    -webkit-order: -1;
+    -ms-flex-order: -1;
+    order: -1;
   }
 
   .good__text {
@@ -604,14 +608,17 @@ button {
     align-items: stretch;
   }
 
+  .good__inner {
+    margin-bottom: 24px;
+  }
+
   .good__img {
     width: 392px;
     height: 392px;
-    margin: 0 41px 0 0;
   }
 
-  .good__inner {
-    margin-bottom: 24px;
+  .good__pic {
+    margin: 0 41px 0 0;
   }
 
   .good__text {
@@ -637,6 +644,9 @@ button {
   .good__img {
     width: 528px;
     height: 465px;
+  }
+
+  .good__pic {
     margin: 0 48px auto 0;
   }
 
