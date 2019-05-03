@@ -5,9 +5,10 @@ $back-color: #f8f8f8;
   width: 288px;
   background: $back-color;
   margin-bottom: 26px;
-  display: block;
+  display: inline-block;
 
   @include media("tablet-small") {
+    width: 100%;
     height: 551px;
     margin-bottom: 44px;
     order: -1;
