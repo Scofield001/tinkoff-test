@@ -7,10 +7,12 @@
     max-width: 640px;
     padding: 88px 44px;
   }
+
   @include media('tablet-wide') {
     max-width: 960px;
     padding: 100px 67px;
   }
+
   @include media('desktop-wide') {
     max-width: 1366px;
     padding: 128px 131px;
