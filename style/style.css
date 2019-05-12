@@ -440,6 +440,15 @@ button {
   background: #f00;
 }
 
+.good__img {
+  background: #f8f8f8;
+  width: 100%;
+}
+
+.good__inner {
+  margin-bottom: 25px;
+}
+
 .good__new-price {
   font-size: 2rem;
   margin-right: 23px;
@@ -452,15 +461,9 @@ button {
   bottom: -2px;
 }
 
-.good__inner {
-  margin-bottom: 25px;
-}
-
-.good__text {
-  color: #999;
-  font-family: pragmatica, Helvetica, Arial, sans-serif;
-  margin-bottom: 33px;
-  line-height: 1.5rem;
+.good__pic {
+  margin-bottom: 26px;
+  display: block;
 }
 
 .good__title {
@@ -468,14 +471,11 @@ button {
   margin-bottom: 24px;
 }
 
-.good__img {
-  background: #f8f8f8;
-  width: 100%;
-}
-
-.good__pic {
-  margin-bottom: 26px;
-  display: block;
+.good__text {
+  color: #999;
+  font-family: pragmatica, Helvetica, Arial, sans-serif;
+  margin-bottom: 33px;
+  line-height: 1.5rem;
 }
 
 @media only screen and (min-width: 640px) {
@@ -522,6 +522,14 @@ button {
     align-items: flex-end;
   }
 
+  .good__img {
+    height: 551px;
+  }
+
+  .good__inner {
+    margin-bottom: 0;
+  }
+
   .good__new-price {
     margin-right: 25px;
     font-size: 1.8rem;
@@ -532,13 +540,12 @@ button {
     bottom: -1px;
   }
 
-  .good__inner {
-    margin-bottom: 0;
-  }
-
-  .good__text {
-    margin-bottom: 37px;
-    line-height: 1.4rem;
+  .good__pic {
+    margin-bottom: 44px;
+    -webkit-box-ordinal-group: 0;
+    -webkit-order: -1;
+    -ms-flex-order: -1;
+    order: -1;
   }
 
   .good__title {
@@ -546,16 +553,9 @@ button {
     font-size: 1.8rem;
   }
 
-  .good__img {
-    height: 551px;
-  }
-
-  .good__pic {
-    margin-bottom: 44px;
-    -webkit-box-ordinal-group: 0;
-    -webkit-order: -1;
-    -ms-flex-order: -1;
-    order: -1;
+  .good__text {
+    margin-bottom: 37px;
+    line-height: 1.4rem;
   }
 }
 
@@ -611,25 +611,25 @@ button {
     align-items: stretch;
   }
 
+  .good__img {
+    width: 392px;
+    height: 392px;
+  }
+
   .good__inner {
     margin-bottom: 24px;
   }
 
-  .good__text {
-    max-width: 50%;
+  .good__pic {
+    margin: 0 41px 0 0;
   }
 
   .good__title {
     font-size: 2.5rem;
   }
 
-  .good__img {
-    width: 392px;
-    height: 392px;
-  }
-
-  .good__pic {
-    margin: 0 41px 0 0;
+  .good__text {
+    max-width: 50%;
   }
 }
 
@@ -643,11 +643,6 @@ button {
     height: 536px;
   }
 
-  .good__title {
-    font-size: 2.9rem;
-    margin-bottom: 16px;
-  }
-
   .good__img {
     width: 528px;
     height: 465px;
@@ -655,5 +650,10 @@ button {
 
   .good__pic {
     margin: 0 48px auto 0;
+  }
+
+  .good__title {
+    font-size: 2.9rem;
+    margin-bottom: 16px;
   }
 }
