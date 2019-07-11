@@ -20,7 +20,7 @@ function css() {
         .pipe( concat( 'style.scss'))
         .pipe( sass({includePaths: normalize.includePaths}))
         .pipe(autoprefixer({
-            browsers: ['last 11 version'],
+            browsers: ['last 2 versions, Firefox ESR, not dead, not OperaMini all'],
             cascade: false,
         }))
         .pipe(gcmq())
