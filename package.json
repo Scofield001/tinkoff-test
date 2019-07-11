@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Scofield001/tinkoff-test.git"
+    "url": "git+https://github.com/aabekk/tinkoff-test.git"
   },
   "keywords": [
     "html",
@@ -18,9 +18,9 @@
   "author": "Aleksandr Bekk",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Scofield001/tinkoff-test/issues"
+    "url": "https://github.com/aabekk/tinkoff-test/issues"
   },
-  "homepage": "https://github.com/Scofield001/tinkoff-test#readme",
+  "homepage": "https://github.com/aabekk/tinkoff-test#readme",
   "devDependencies": {
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.0.0",
