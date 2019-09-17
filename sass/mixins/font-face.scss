@@ -1,11 +1,8 @@
 @mixin font-face($name, $mod, $font-weight, $style: false) {
   @font-face {
-    font-family: $name;
-    src: url('../fonts/' + $name + '/' + $name + '-' + $mod + '.eot');
-    src: url('../fonts/' + $name + '/' + $name + '-' + $mod + '.eot?#iefix') format('embedded-opentype'),
+    src: local($name),
          url('../fonts/' + $name + '/' + $name + '-' + $mod + '.woff2') format('woff2'),
-         url('../fonts/' + $name + '/' + $name + '-' + $mod + '.woff') format('woff'),
-         url('../fonts/' + $name + '/' + $name + '-' + $mod + '.ttf') format('truetype');
+         url('../fonts/' + $name + '/' + $name + '-' + $mod + '.woff') format('woff');
     font-weight: $font-weight;
     @if $style {
       font-style: $style;
